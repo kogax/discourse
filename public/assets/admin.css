@@ -1,0 +1,786 @@
+/* line 8, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 12, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 19, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.show {
+  display: block;
+}
+
+/* line 24, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.hide,
+.hidden {
+  display: none;
+}
+
+/* line 28, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 35, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.affix {
+  position: fixed;
+}
+
+/* line 44, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.clearfix:before, .commits-widget .commits-list li:before, .clearfix:after, .commits-widget .commits-list li:after {
+  display: table;
+  content: " ";
+}
+/* line 48, ../../../app/assets/stylesheets/foundation/helpers.css.scss */
+.clearfix:after, .commits-widget .commits-list li:after {
+  clear: both;
+}
+
+/* line 7, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list li a span.count {
+  font-size: 12px;
+  float: right;
+  margin-right: 10px;
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: #555;
+}
+
+/* line 17, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-content {
+  margin-bottom: 50px;
+}
+/* line 19, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-content .admin-contents {
+  padding: 8px;
+}
+/* line 25, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-content table.report tr th:nth-of-type(1) {
+  width: 20%;
+}
+/* line 30, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-content table.report .bar-container {
+  float: left;
+  width: 300px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+/* line 37, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-content table.report .bar-container .bar {
+  margin-top: 5px;
+  background-color: #0088cc;
+  display: inline-block;
+  text-align: right;
+  padding-right: 8px;
+  color: white;
+}
+
+/* line 49, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-loading {
+  width: 100px;
+  margin: 0 auto 30px auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 10px 10px 30px;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  color: white;
+  background-image: url(/assets/spinner_96_w.gif);
+  background-repeat: no-repeat;
+  background-position: 10px 8px;
+  background-size: 25px;
+}
+
+/* line 67, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  padding: 5px 10px 3px 0px;
+  margin-bottom: 20px;
+  height: 35px;
+}
+/* line 76, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .nav.nav-pills li.active a {
+  border-color: gray;
+  background-color: #999999;
+}
+/* line 79, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .nav.nav-pills li.active a:hover {
+  background-color: #999999;
+}
+/* line 85, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls h1 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #666666;
+}
+/* line 90, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .controls {
+  padding-top: 3px;
+}
+/* line 93, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls button {
+  float: left;
+  margin-right: 5px;
+}
+/* line 97, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .result-message {
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+/* line 103, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .username input[type=text] {
+  width: 240px;
+}
+/* line 107, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .search {
+  float: right;
+  margin-left: 10px;
+}
+/* line 110, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .search label {
+  margin-top: 5px;
+}
+/* line 114, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .toggle {
+  margin-top: 8px;
+  float: right;
+}
+/* line 118, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls .toggle span {
+  font-weight: bold;
+}
+/* line 122, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-controls label {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 129, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.settings .setting {
+  padding-bottom: 20px;
+}
+/* line 131, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.settings .setting .desc {
+  padding-top: 3px;
+  color: #999999;
+}
+/* line 136, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.settings .setting h3 {
+  font-size: 13px;
+  font-weight: normal;
+}
+/* line 143, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.settings .setting.overridden input[type=text] {
+  background-color: #ffffcc;
+}
+/* line 147, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.settings .setting.overridden h3 {
+  color: #999900;
+}
+
+/* line 154, ../../../app/assets/stylesheets/admin/admin_base.scss */
+section.details h1 {
+  font-size: 15px;
+  background-color: #cccccc;
+  color: white;
+  padding: 0 10px;
+  margin: 0px 0 5px 0;
+}
+
+/* line 163, ../../../app/assets/stylesheets/admin/admin_base.scss */
+#selected-controls {
+  background-color: #cceeff;
+  padding: 8px;
+  min-height: 27px;
+  position: fixed;
+  bottom: 0;
+  width: 1075px;
+  border: 1px solid #b3e5ff;
+}
+
+/* line 174, ../../../app/assets/stylesheets/admin/admin_base.scss */
+table tr.selected {
+  background-color: #f5fcff;
+}
+
+/* line 179, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row {
+  height: 30px;
+  line-height: 30px;
+  padding: 5px;
+  border-top: 1px solid #dddddd;
+}
+/* line 183, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row:nth-of-type(1) {
+  border-top: 0;
+}
+/* line 187, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row:before, .display-row:after {
+  display: table;
+  content: "";
+}
+/* line 191, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row:after {
+  clear: both;
+}
+/* line 194, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row .field {
+  font-weight: bold;
+  width: 196px;
+  float: left;
+  margin-left: 12px;
+}
+/* line 200, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row .value {
+  width: 250px;
+  float: left;
+  margin-left: 12px;
+}
+/* line 206, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.display-row .controls .btn {
+  margin-right: 5px;
+}
+
+/* line 214, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .nav.nav-pills {
+  margin-left: 10px;
+}
+/* line 217, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .content-list, .customize .current-style {
+  float: left;
+}
+/* line 220, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .content-list ul {
+  min-height: 700px;
+}
+/* line 223, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize a {
+  cursor: pointer;
+}
+/* line 226, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style {
+  padding-left: 10px;
+  width: 65%;
+}
+/* line 227, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .delete-link {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+/* line 231, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .preview-link {
+  margin-left: 30px;
+}
+/* line 236, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .style-name {
+  width: 600px;
+  height: 25px;
+  font-size: 20px;
+}
+/* line 241, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .ace-wrapper {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+/* line 246, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .ace_editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+/* line 253, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .status-actions {
+  float: right;
+}
+/* line 255, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .status-actions span {
+  margin-right: 20px;
+}
+/* line 259, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .buttons {
+  float: left;
+  width: 200px;
+}
+/* line 262, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .buttons button, .customize .current-style .buttons a, .customize .current-style .buttons span {
+  float: left;
+}
+/* line 265, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.customize .current-style .buttons .saving {
+  padding: 5px 0 0 0;
+  margin-left: 10px;
+  width: 80px;
+  color: #999999;
+}
+
+/* line 277, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags tr.hidden-post td.excerpt {
+  opacity: 0.4;
+}
+/* line 278, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags td.message {
+  padding: 4px 0;
+  background-color: #f8f8e0;
+}
+/* line 282, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags td {
+  vertical-align: middle;
+}
+/* line 283, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags th {
+  text-align: left;
+}
+/* line 284, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags .user {
+  width: 40px;
+}
+/* line 285, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags .excerpt {
+  width: 600px;
+  padding: 0 10px 10px 0;
+}
+/* line 287, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags .excerpt .icon, .admin-flags .excerpt h3 {
+  display: inline-block;
+}
+/* line 290, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags .flaggers {
+  padding: 0 10px;
+}
+/* line 291, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.admin-flags .last-flagged {
+  padding: 0 10px;
+}
+
+/* Dashboard */
+/* line 296, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-left {
+  float: left;
+  width: 500px;
+  margin-top: 10px;
+}
+
+/* line 301, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-right {
+  float: right;
+  width: 500px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 967px) and (max-width: 1139px) {
+  /* line 301, ../../../app/assets/stylesheets/admin/admin_base.scss */
+  .dashboard-right {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 966px) {
+  /* line 301, ../../../app/assets/stylesheets/admin/admin_base.scss */
+  .dashboard-right {
+    width: 390px;
+  }
+}
+/* line 314, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-right .dashboard-stats {
+  width: 100%;
+  margin-left: 0;
+}
+
+/* line 321, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .version-number {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 327, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .face {
+  width: 20px;
+}
+/* line 331, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .version-notes .icon {
+  vertical-align: bottom;
+}
+/* line 335, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check.critical .version-notes .normal-note {
+  display: none;
+}
+/* line 338, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check.normal .version-notes .critical-note {
+  display: none;
+}
+/* line 342, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .icon {
+  font-size: 26px;
+}
+/* line 346, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .update-to-date {
+  color: green;
+}
+/* line 349, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .updates-available {
+  color: #FF9500;
+}
+/* line 352, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.version-check .critical-updates-available {
+  color: red;
+}
+
+/* line 358, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.update-nag i.icon {
+  font-size: 20px;
+}
+
+/* line 363, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats {
+  margin-bottom: 30px;
+  width: 460px;
+  margin-left: 30px;
+}
+/* line 368, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats h4 {
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+/* line 373, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table {
+  width: 100%;
+}
+/* line 377, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table .title i.icon {
+  color: #444;
+}
+/* line 382, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table th {
+  font-weight: normal;
+  text-align: center;
+  background-color: #e4e4e4;
+}
+/* line 387, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table th.title {
+  text-align: left;
+}
+/* line 391, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table thead tr:hover > td {
+  background-color: white;
+}
+/* line 394, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table thead tr:hover > th {
+  background-color: #e4e4e4;
+}
+/* line 399, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value {
+  font-weight: bold;
+  text-align: center;
+}
+/* line 403, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value i {
+  display: none;
+}
+/* line 407, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value.trending-up {
+  color: green;
+}
+/* line 409, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value.trending-up i.up {
+  display: inline;
+}
+/* line 413, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value.trending-down {
+  color: red;
+}
+/* line 415, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value.trending-down i.down {
+  display: inline;
+}
+/* line 420, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats table td.value.no-change i.down {
+  display: inline;
+  visibility: hidden;
+}
+/* line 428, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.detected-problems {
+  border-radius: 5px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: inset 0 0 10px #bbb;
+}
+/* line 436, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.detected-problems .look-here {
+  float: left;
+  margin: 20px 20px 0 20px;
+}
+/* line 440, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.detected-problems .look-here .icon {
+  font-size: 32px;
+  vertical-align: middle;
+  color: #666666;
+}
+/* line 447, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.detected-problems .problem-messages {
+  float: left;
+  width: 355px;
+}
+/* line 450, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.detected-problems .problem-messages a {
+  text-decoration: underline;
+}
+/* line 453, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.detected-problems .problem-messages .actions {
+  text-align: right;
+}
+/* line 459, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.totals {
+  margin-top: 12px;
+  padding-left: 5px;
+}
+/* line 462, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.totals .value {
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 30px;
+}
+/* line 469, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.trust-levels {
+  margin-bottom: 0px;
+}
+/* line 471, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.trust-levels table {
+  margin-bottom: 0px;
+}
+/* line 474, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.dashboard-stats.trust-levels td.value {
+  width: 45px;
+}
+
+/* line 481, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget {
+  border: solid 1px #ccc;
+  width: 500px;
+  height: 180px;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 967px) and (max-width: 1139px) {
+  /* line 481, ../../../app/assets/stylesheets/admin/admin_base.scss */
+  .commits-widget {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 966px) {
+  /* line 481, ../../../app/assets/stylesheets/admin/admin_base.scss */
+  .commits-widget {
+    width: 390px;
+  }
+}
+/* line 494, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget ul, .commits-widget li {
+  margin: 0;
+  padding: 0;
+}
+/* line 498, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget ul {
+  list-style: none;
+}
+/* line 501, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget a {
+  color: #222;
+  text-decoration: none;
+}
+/* line 505, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget a:hover {
+  text-decoration: underline;
+}
+/* line 509, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .header {
+  color: #222;
+  font-weight: bold;
+  height: 30px;
+  border-bottom: solid 1px #ccc;
+  background-color: #f1f1f1;
+  background-image: linear-gradient(to bottom, #f1f1f1, #e1e1e1);
+  cursor: pointer;
+}
+/* line 517, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .header h1 {
+  font-size: 18px;
+  margin: 5px 0 0 8px;
+  display: inline-block;
+  line-height: 1.0em;
+}
+/* line 525, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .header:hover h1 {
+  color: #0081b0;
+}
+/* line 529, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list {
+  height: 149px;
+  overflow-y: auto;
+}
+/* line 533, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li {
+  line-height: 1.0em;
+  padding: 6px 8px;
+  border-bottom: solid 1px #ccc;
+  background-color: #f6f6f6;
+  background-image: linear-gradient(to bottom, #f6f6f6, #eeeeee);
+}
+/* line 540, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li .left {
+  float: left;
+}
+/* line 543, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li .right {
+  margin-left: 52px;
+}
+/* line 547, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li img {
+  margin-top: 2px;
+  border: solid 1px #ccc;
+  padding: 2px;
+  background-color: white;
+}
+/* line 554, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li .commit-message {
+  color: #222;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 560, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li .commit-meta {
+  color: #555;
+  font-size: 12px;
+}
+/* line 565, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li .committer-name {
+  font-weight: bold;
+  color: #333;
+}
+/* line 570, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget .commits-list li:last-child {
+  border: none;
+}
+/* line 576, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget ::-webkit-scrollbar {
+  width: 6px;
+}
+/* line 579, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget ::-webkit-scrollbar-thumb {
+  background-color: #d1d1d1;
+  -webkit-border-radius: 3px;
+}
+/* line 583, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.commits-widget ::-webkit-scrollbar-track {
+  border-left: solid 1px #ddd;
+}
+
+/* line 590, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list h3 {
+  color: #666666;
+  font-size: 15px;
+  padding-left: 5px;
+}
+/* line 596, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 600, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list ul li {
+  border-bottom: 1px solid #ddd;
+}
+/* line 604, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list ul li a {
+  display: block;
+  padding: 10px;
+  color: #999999;
+}
+/* line 609, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list ul li a:hover {
+  background-color: #eee;
+  color: #999999;
+}
+/* line 614, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-list ul li a.active {
+  font-weight: bold;
+  color: black;
+}
+
+/* line 622, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor {
+  min-height: 500px;
+  float: left;
+  width: 760px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 967px) and (max-width: 1139px) {
+  /* line 622, ../../../app/assets/stylesheets/admin/admin_base.scss */
+  .content-editor {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 966px) {
+  /* line 622, ../../../app/assets/stylesheets/admin/admin_base.scss */
+  .content-editor {
+    width: 600px;
+  }
+}
+/* line 631, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor p.description {
+  color: #999999;
+}
+/* line 635, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor .controls {
+  margin-top: 10px;
+}
+/* line 639, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor #pagedown-editor {
+  width: 98%;
+}
+/* line 643, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor textarea.plain {
+  width: 98%;
+  height: 200px;
+}
+/* line 648, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor #wmd-input {
+  width: 98%;
+  height: 200px;
+}
+/* line 653, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor .ace-wrapper {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+/* line 658, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.content-editor .ace_editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 669, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.row.groups input[type='text'] {
+  width: 500px;
+}
+/* line 672, ../../../app/assets/stylesheets/admin/admin_base.scss */
+.row.groups input#group-users {
+  width: 600px;
+}
+//  Manifest
+//
+
